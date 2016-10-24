@@ -234,7 +234,8 @@ body {
 }
 
 .bienvenidos{
-    margin-top: 
+   margin-top: 10%;
+    text-align: center;
 }
 
 .qSomos{
@@ -268,3 +269,88 @@ body {
     line-height: 20px;
 }
 
+.azul{
+    vertical-align: middle;
+    margin-top: 3%;
+    padding: 60px;
+}
+
+.rowContenedor1{
+    background-color: blue;
+    margin-top: 7%;
+    margin-right: px;
+    height: 20px;
+    margin-left: 70px;
+}
+
+.rowContenedor1Rigth{
+
+    margin-left: 40px;
+}
+
+.contenedor4{
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+.contenedor4div1{
+    text-align: center;
+    margin-right: 30%;
+}
+
+.contenedor4div3{
+    text-align: center;
+    margin-right: 30%;
+}
+
+.contenedor7{
+    background-color: #ddd;
+    
+    height: 300px;
+}
+
+.contenedor8{
+    background-color: #283bc5;
+}
+
+.div1c8{
+    FONT-SIZE: 30px;
+    color: white;
+    margin-top: 12%;
+    margin-left: 7%;
+}
+
+.div2c8{
+    FONT-SIZE: 30px;
+    color: white;
+    margin-left: 15%;
+}
+
+.div3c8{
+    FONT-SIZE: 25px;
+    color: white;
+    margin-left: 15%;
+}
+
+.contenedor9{
+     background-image: url(../img/piedepagina.png);
+}
+
+/*pagina compañia*/
+
+/*CONTENEDOR 1*/
+.div1ContCom{
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+/*CONTENEDOR 2*/
+.divMision{
+background-color: #ddd;
+}
+
+.divVision{
+    background-color: #ddd;
+}
