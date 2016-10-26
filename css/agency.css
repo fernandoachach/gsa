@@ -296,11 +296,13 @@ body {
 .contenedor4div1{
     text-align: center;
     margin-right: 30%;
+	font-size: 30px;
 }
 
 .contenedor4div3{
     text-align: center;
     margin-right: 30%;
+	font-size: 30px;
 }
 
 .contenedor7{
@@ -309,9 +311,40 @@ body {
     height: 300px;
 }
 
-.contenedor8{
+/*.contenedor8{
     background-color: #283bc5;
-}
+}*/
+
+
+.divcontacto{
+     background-color: #2f3a84;
+ 	    height: 300px;
+ }
+ 
+ .divcontacto h3{
+ 	color:#ffffff;
+ }
+ 
+ .btnenviar{
+ 	background-color:#4066c0;
+ 	color:#FFFFFF;
+ 	border:none!important;
+ }
+ 
+ 
+ .myhr{
+ 	    border-top: 1px solid #000000;
+ 	    border-top: 1px solid #000000;
+ 		width:15%;
+ 		float:left;
+ 		size:8px;
+ }
+ #txtdireccion{
+ 	margin-left:100px;
+ 	margin-top:10px;
+ 	font-size:18px;
+ }
+ 
 
 .div1c8{
     FONT-SIZE: 30px;
@@ -364,3 +397,31 @@ background-color: #ddd;
         margin-bottom: 20px;
 }
 
+
+.divcontacto{
+   background-color: #2f3a84!important;
+   height: 300px;
+}
+
+.divcontacto h3{
+color:#ffffff;
+}
+
+ .btnenviar{
+background-color:#4066c0;
+color:#FFFFFF;
+border:none!important;
+ }
+ 
+ .myhr{
+    border-top: 1px solid #000000;
+	width:15%;
+	float:left;
+	size:8px;
+ }
+ 
+ #txtdireccion{
+margin-left:100px;
+margin-top:10px;
+font-size:18px;
+ }
