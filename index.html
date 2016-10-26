@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>gsa</title>
+    <title>compañia</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -24,12 +24,38 @@
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+   <style type="text/css">
+               @media (min-width: 1200px){
+            .timeline>li .timeline-image {
+                width: 70px;
+                height: 70px;
+                margin-left: -35px;
+            }
+        }
+
+
+        .timeline>li .timeline-image {
+    
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    z-index: 100;
+    background-color: #337ab7;
+    color: #337ab7;
+    border-radius: 100%;
+    border: 7px solid #f1f1f1;
+    text-align: center;
+}
+
+
+    .timeline:before {
+    
+    width: 7px;
+    
+    margin-left: 1.5px;
+}
+
+   </style>
 
 </head>
 
@@ -56,19 +82,19 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#services">INICIO</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#portfolio">PROMOCIONES</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#about">SOLUCIONES</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Team</a>
+                        <a class="page-scroll" href="#team">ATENCIÓN A CLIENTES</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact">CONTACTO</a>
                     </li>
                 </ul>
             </div>
@@ -100,28 +126,32 @@
                 <div class = "col-md-6 espacioBlanco">
                     <h3 class = "bienvenidos">BIENVENIDOS A NUESTRO SITIO</h3>
                     <div class="row">
-                         <div class = "col-md-3">
+                         <div class = "col-md-1 rowContenedor1">
                   
                          </div>
                     
                     
-                         <div class = "col-md-9">
-                            <p>
-                                Somos una empresa Mexicana dedicada a proveer soluciones a personas y organizaciones que siempre busca la mejora continua agregando valor a través de nuestros servicios.
-                            </p>
+                         <div class = "col-md-9 rowContenedor1Rigth">
+                            <div class="row">
+                                 <div class = "col-xs-12 col-sm-6">
+                                    <p style="text-align: start;">
+                                        Somos una empresa Mexicana dedicada a proveer soluciones a personas y organizaciones que siempre busca la mejora continua agregando valor a través de nuestros servicios.
+                                    </p>
+                                  </div>  
+                            </div>
                          </div>
                     </div>
                 </div>
                 <div class = "col-md-6 espacioAzul">
 
                     
-                      <div class="row">
-                         <div class = "col-md-6">
+                      <div class="row azul">
+                         <div class = "col-xs-12 col-sm-6">
                             <img src="img/engrane1.png" class="img-responsive picture" />    
                         </div>
                     
                     
-                         <div class = "col-md-6">
+                         <div class = "col-xs-12 col-sm-6" >
                            <img src="img/engrane2.png" class="img-responsive picture" />    
                          </div>
                      </div>
@@ -139,13 +169,16 @@
             </div>
             <div class = "col-md-5">
 
-              
-                <div class="intro-lead-in">EXPANDIENDO POSIBILIDADES</div>
-                <div class="intro-lead-in">
-                    <center><img src="img/divisor.png" class="img-responsive" /></center>
-                </div>
-                <div class="intro-lead-in">SIEMPRE EN BUSCA DE LA MEJORA CONTINUA</div>
-               
+              <div class="row">
+
+                <div class = "col-md-12 contenedor4">
+                        <div class="contenedor4div1">¿QUIENES SOMOS?</div>
+                        <div class="">
+                            <center><img src="img/divisor.png" class="img-responsive" /></center>
+                        </div>
+                        <div class="contenedor4div3">PERFIL CORPORATIVO</div>
+                </div>        
+               </div>
             
 
             </div>
@@ -157,12 +190,12 @@
     </section>
 
     <!-- About Section -->
-    <section id="about">
+    <section>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">¿QUE OFRECEMOS</h2>
+                    <center><img src="img/index9.png" class="img-responsive" width="200" /></center>
                 </div>
             </div>
             <div class="row">
@@ -174,8 +207,8 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
+                                    <h4></h4>
+                                    <h4 class="subheading"></h4>
                                 </div>
                                 <div class="timeline-body">
                                   <img class="img-responsive" src="img/prueba.png" alt="">
@@ -188,8 +221,7 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
+                                    
                                 </div>
                                 <div class="timeline-body">
                                     <img class="img-responsive" src="img/prueba2.png" alt="">
@@ -202,8 +234,7 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>December 2012</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
+                                    
                                 </div>
                                 <div class="timeline-body">
                                    <img class="img-responsive" src="img/prueba3.png" alt="">
@@ -216,8 +247,7 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>July 2014</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
+                                  
                                 </div>
                                 <div class="timeline-body">
                                    <img class="img-responsive" src="img/prueba2.png" alt="">
@@ -234,6 +264,50 @@
 
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7522.332589513787!2d-99.252016!3d19.49148!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d20313f279c523%3A0x5c8eb6463eb425ff!2sLimoneros+2%2C+Valle+de+San+Mateo%2C+53240+Naucalpan+de+Ju%C3%A1rez%2C+M%C3%A9x.%2C+M%C3%A9xico!5e0!3m2!1ses!2smx!4v1477022333969" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
   
+
+    <section>
+            <div class="container-fluid">
+                <div class="row">
+                        <div class="col-md-6 col-xs-12 col-sm-6 contenedor7">
+                           <div class="row"> 
+                                <div class="col-md-3 col-xs-12 col-sm-6 ">
+                                </div>
+
+                                <div class="col-md-9 col-xs-12 col-sm-6 ">
+                                    <p style="    padding: 15%; font-size: 20px;">
+                                        Limoneros No.2-C <br>
+                                        Col. Boulevares <br>
+                                        Naucalpan de Júarez <br>
+                                        C.P. 53140 <br>
+                                        Estado de México <br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-xs-12 col-sm-6 contenedor8">
+                            <div class="div1c8">CONTÁCTANOS</div>
+                            <div class="div2c8">Tel. +52 (55) 6821 7038</div>
+                            <div class="div3c8">E-mail: contacto@gsaconsulting.com.mx</div>
+                            <br><br><br><br><br>
+                        </div>
+                </div>
+            </div>
+    </section>  
+
+
+    <footer><img src="img/piedepagina.png" class="img-responsive picture" /></footer>
+
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 contenedor9">
+                </div>
+
+            </div>
+
+
+    </section>  
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
