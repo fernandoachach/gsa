@@ -97,11 +97,22 @@
 
   <style type="text/css">
 
+
+.timeline>li .timeline-image {
+    
+    width: 39px;
+    height: 40px;
+   
+}
+
+
+
+
     @media (min-width: 1200px){
     .timeline>li .timeline-image {
             width: 70px;
             height: 70px;
-            margin-left: -205px;
+            margin-left: -35px;
             }
     }
 
@@ -109,7 +120,7 @@
     .timeline>li .timeline-image {
             width: 70px;
             height: 70px;
-            margin-left: -185px;
+            margin-left: -35px;
             }
     }
 
@@ -117,28 +128,23 @@
     .timeline>li .timeline-image {
             width: 70px;
             height: 70px;
-            margin-left: -205px;
+            margin-left: -35px;
             }
     }
 
 
-    @media (min-width: 768px){
-            .timeline:before {
-                left: 0;
-                }
-         }
+     @media (max-width: 268px){  
+    .timeline>li .timeline-image {
+            width: 70px;
+            height: 70px;
+            margin-left: -35px;
+            }
+    }
+
+   
 
 
-         .timeline:before {
-            top: 0;
-            bottom: 0;
-            position: absolute;
-            content: "";
-            width: 2px;
-            background-color: #f1f1f1;
-            left: 40px;
-            margin-left: -1.5px;
-        }
+         
 
         :before {
         -webkit-box-sizing: border-box;
@@ -283,7 +289,62 @@
                 <div class="row">
 
                      <div class="col-md-2 col-sm-2 col-xs-2">
-                        <img src="img/compania2.png" class="img-responsive picture" />
+                          <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                               
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4></h4>
+                                    <h4 class="subheading"></h4>
+                                </div>
+                                <div class="timeline-body">
+                                  <img class="img-responsive" src="img/prueba.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                               
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    
+                                </div>
+                                <div class="timeline-body">
+                                    <img class="img-responsive" src="img/prueba2.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                               
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    
+                                </div>
+                                <div class="timeline-body">
+                                   <img class="img-responsive" src="img/prueba3.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                  
+                                </div>
+                                <div class="timeline-body">
+                                   <img class="img-responsive" src="img/prueba2.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        
+                    </ul>
                     </div>
 
                     <div class="col-md-10 col-sm-10 col-xs-10">
