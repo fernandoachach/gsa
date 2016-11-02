@@ -1,6 +1,6 @@
 body {
-    overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*overflow-x: hidden;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;*/
 }
 
 .text-muted {
@@ -235,6 +235,7 @@ body {
 
 .bienvenidos{
    margin-top: 10%;
+   padding-right: 200px;
     text-align: center;
 }
 
@@ -367,6 +368,10 @@ body {
 
 .contenedor9{
      background-image: url(../img/piedepagina.png);
+}
+
+.contenedor6{
+     background-image: url(../img/ventajas.png);
 }
 
 /*pagina compañia*/
