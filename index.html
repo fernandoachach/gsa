@@ -336,6 +336,9 @@
            <p>Copyright 2016 GSA Consulting | Aviso de Privacidad</p>
 		   <p>Powered by Servicios Dinámicos</p>
      </div> 
+	 
+	 
+	  <a href="#" class="scrollup">Scroll</a>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -355,6 +358,25 @@
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
 
+	<script>
+		    $(document).ready(function(){
+  
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('.scrollup').fadeIn();
+            } else {
+                $('.scrollup').fadeOut();
+            }
+        });
+  
+        $('.scrollup').click(function(){
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+  
+    });
+	</script>
+	
 </body>
 
 </html>

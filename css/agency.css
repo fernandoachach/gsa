@@ -432,3 +432,17 @@ margin-left:100px;
 margin-top:10px;
 font-size:18px;
  }
+
+ 
+ .scrollup{
+    width:70px;
+    height:70px;
+    opacity:1.0;
+    position:fixed;
+    bottom:50px;
+    left:100px;
+    display: none;
+    text-indent:-9999px;
+    background: url('../img/flecha1.png') no-repeat;
+
+}
