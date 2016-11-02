@@ -1,6 +1,6 @@
 body {
-    overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*overflow-x: hidden;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;*/
 }
 
 .text-muted {
@@ -235,6 +235,7 @@ body {
 
 .bienvenidos{
    margin-top: 10%;
+   padding-right: 200px;
     text-align: center;
 }
 
@@ -295,19 +296,17 @@ body {
 
 .contenedor4div1{
     text-align: center;
-    margin-right: 30%;
+    margin-top:25%;
 	font-size: 30px;
 }
 
 .contenedor4div3{
     text-align: center;
-    margin-right: 30%;
-	font-size: 30px;
+   	font-size: 30px;
 }
 
 .contenedor7{
     background-color: #ddd;
-    
     height: 300px;
 }
 
@@ -365,8 +364,16 @@ body {
     margin-left: 15%;
 }
 
-.contenedor9{
-     background-image: url(../img/piedepagina.png);
+.footer{
+     background-color:#dde2f1;
+	 text-align:center;
+	 padding-top:10px;
+	 padding-bottom:10px;
+	 color:#9fa3b9;
+}
+
+.contenedor6{
+    background-color:#112f9f;
 }
 
 /*pagina compañia*/
