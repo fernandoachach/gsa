@@ -366,8 +366,12 @@ body {
     margin-left: 15%;
 }
 
-.contenedor9{
-     background-image: url(../img/piedepagina.png);
+.footer{
+     background-color:#dde2f1;
+	 text-align:center;
+	 padding-top:10px;
+	 padding-bottom:10px;
+	 color:#9fa3b9;
 }
 
 .contenedor6{
