@@ -49,12 +49,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
     .navbar-default .navbar-brand {
-        color: #fed136;
+        color: ##0f528c;
         font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     }
 
         .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
-            color: #fec503;
+            color: #0f528c;
         }
 
     .navbar-default .navbar-collapse {
@@ -62,8 +62,8 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .navbar-default .navbar-toggle {
-        background-color: #fed136;
-        border-color: #fed136;
+        background-color: ##fec503;
+        border-color: ##fec503;
     }
 
         .navbar-default .navbar-toggle .icon-bar {
@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
         }
 
         .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-            background-color: #fed136;
+            background-color: ##0f528c;
         }
 
     .navbar-default .nav li a {
@@ -83,19 +83,19 @@ h1, h2, h3, h4, h5, h6 {
     }
 
         .navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
-            color: #fed136;
+            color: ##0f528c;
             outline: 0;
         }
 
     .navbar-default .navbar-nav > .active > a {
         border-radius: 0;
         color: #fff;
-        background-color: #fed136;
+        background-color: ##0f528c;
     }
 
         .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
             color: #fff;
-            background-color: #fec503;
+            background-color: ##0f528c;
         }
 
 @media (min-width:768px) {
